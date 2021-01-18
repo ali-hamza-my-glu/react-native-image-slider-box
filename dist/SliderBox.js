@@ -73,7 +73,7 @@ export class SliderBox extends Component {
       ImageComponent,
       ImageComponentStyle = {},
       sliderBoxHeight,
-      disableOnPress,
+      disableOnPress=true,
       resizeMethod,
       resizeMode,
       imageLoadingColor = '#E91E63',
